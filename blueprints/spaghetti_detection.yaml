@@ -76,13 +76,13 @@ blueprint:
               domain: sensor
               device_class: enum
     printer_camera_image:
-      name: Printer Camera Image Entity
-      description: Bambu Lab printer camera image entity
+      name: Printer Camera Entity
+      description: Bambu Lab printer camera entity
       selector:
         entity:
           filter:
             - integration: bambu_lab
-              domain: image
+              domain: camera
     printer_pause_button:
       name: Printer Pause Button Entity
       description: Bambu Lab printer pause button entity
